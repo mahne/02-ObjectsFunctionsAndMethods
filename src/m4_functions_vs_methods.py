@@ -219,11 +219,11 @@ def try_methods_and_functions():
     draw_many_squares(dori,2,100,30)
 
     dori.speed=5
-    dori.pen = rg.Pen('red',5)
+    dori.pen.color = 'red'
     draw_many_squares(dori,10,50,15)
 
     dori.speed=100
-    dori.pen = rg.Pen('red',35)
+    dori.pen.thickness = 35
     draw_many_squares(dori,8,300,60)
 
     dori.pen = rg.Pen('black',3)
